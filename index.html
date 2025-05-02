@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdulrahman Aldurehim - CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; transition: 0.35s ease; }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      background: url('http://kingofwallpapers.com/leaves/leaves-016.jpg') right no-repeat;
+      background-size: cover;
+      margin: 0;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; right: 0; bottom: 0; left: 0;
+      background-color: rgba(255,255,255,0.92);
+      z-index: -1;
+    }
+    .page {
+      width: 90%;
+      max-width: 1200px;
+      margin: 80px auto;
+      background: white;
+      box-shadow: 6px 10px 28px rgba(0,0,0,0.4);
+      display: flex;
+    }
+    .top-bar {
+      position: relative;
+      height: 220px;
+      background-color: #848484;
+      color: white;
+      text-align: center;
+    }
+    .name {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Raleway', sans-serif;
+      font-size: 58px;
+      font-weight: 100;
+    }
+    .side-bar {
+      width: 350px;
+      background-color: #F7E0C1;
+      padding: 320px 30px 50px;
+      position: relative;
+    }
+    .mugshot {
+      position: absolute;
+      top: 50px;
+      left: 70px;
+      width: 210px;
+      height: 210px;
+    }
+    .logo {
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      color: black;
+    }
+    .logo-svg {
+      width: 100%;
+      height: 100%;
+      stroke: black;
+    }
+    .logo-text {
+      position: absolute;
+      top: 58%;
+      left: 16%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 60px;
+    }
+    .side-header {
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 60px 0 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #888;
+    }
+    .list-thing {
+      padding-left: 25px;
+      margin-bottom: 10px;
+    }
+    .content-container {
+      padding: 40px;
+      width: calc(100% - 350px);
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .separator {
+      width: 240px;
+      height: 2px;
+      background-color: #999;
+      margin: 20px auto;
+    }
+    .greyed {
+      background-color: #DDD;
+      text-align: center;
+      padding: 10px;
+      font-weight: 600;
+    }
+    h3 {
+      margin-top: 30px;
+      font-size: 21px;
+      font-weight: 600;
+    }
+    p.justified {
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="name">Abdulrahman Aldurehim</div>
+  </div>
+  <div class="page">
+    <div class="side-bar">
+      <div class="mugshot">
+        <div class="logo">
+          <svg viewBox="0 0 80 80" class="logo-svg">
+            <path d="M 10 10 L 52 10 L 72 30 L 72 70 L 30 70 L 10 50 Z" stroke-width="2.5" fill="none"/>
+          </svg>
+          <p class="logo-text">AA</p>
+        </div>
+      </div>
+      <p>Riyadh, Saudi Arabia</p>
+      <p>+966502603291</p>
+      <p>Abdulrahmanstud1@gmail.com</p><br>
+      <p><a href="https://linkedin.com/in/abdulrahman-aldurehim-9815b8345" target="_blank">LinkedIn Profile</a></p>
+
+      <p class="side-header">Expertise</p>
+      <p class="list-thing">Python</p>
+      <p class="list-thing">SQL</p>
+      <p class="list-thing">HTML (Basic)</p>
+
+      <p class="side-header">Education</p>
+      <p class="list-thing">Bachelor of Information Systems</p>
+      <p class="list-thing">Shaqra University</p>
+      <p class="list-thing">Expected Graduation: 2027</p>
+    </div>
+    <div class="content-container">
+      <h2>Junior Back-End Developer</h2>
+      <div class="separator"></div>
+      <div class="greyed">Profile</div>
+      <p class="justified">
+        Passionate Information Systems student with foundational skills in Python, SQL, and web technologies. Currently studying at Shaqra University, seeking to build practical experience through internships and personal projects in the Back-End development field.
+      </p>
+
+      <div class="greyed">Projects</div>
+      <h3>Simple User Management System</h3>
+      <p class="justified">
+        Developed a basic user management application using Python and SQLite. Includes functionality to create, read, update, and delete users.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
